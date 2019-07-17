@@ -27,7 +27,7 @@ and Densely Connected Convolutional,named MobDenseNet. Simultaneously,different 
 ![](https://github.com/LeiJiangJNU/R3FA/blob/master/figures/nme02.png)
 
 ### 3D Face Alignment Results
-![](https://github.com/hli1221/imagefusion_densefuse/blob/master/figures/results.png)
+![](https://github.com/LeiJiangJNU/R3FA/blob/master/figures/results.png)
 
 If you have any question about this code, feel free to reach me(ljiang_jnu@outlook.com)
 
