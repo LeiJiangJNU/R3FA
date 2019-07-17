@@ -3,14 +3,14 @@ Accepted in: The 10th International Conference on Image and Graphics(ICIG2019)-O
 
 ## Note
 In 'Demo.py' file, you will find how to run these codes.
-In 'FaceSwap/Demo2.py' file, you will find how to run face swap code
+In 'FaceSwap/Demo2.py' file, you will find how to run face swap code.
 
 ## Abstract
 In this paper proposes a novel and efficient end-to-end 3D face alignment framework.We build an efficient and stable network model through Depthwise Separable Convolution
 and Densely Connected Convolutional,named MobDenseNet. Simultaneously,different loss functions are used to constrain 3D parameters based on 3D Morphable Model (3DMM) and 3D vertices
 
-### The framework of fusion method
-![](https://github.com/hli1221/imagefusion_densefuse/blob/master/figures/framework.png)
+### The framework of ours proposes method
+![](https://github.com/LeiJiangJNU/R3FA/tree/master/figures/framework01.pdf)
 
 ### Fusion strategy - addition
 <img src="https://github.com/hli1221/imagefusion_densefuse/blob/master/figures/fuse_addition.png" width="600">
