@@ -12,11 +12,11 @@ and Densely Connected Convolutional,named MobDenseNet. Simultaneously,different 
 ### The framework of ours proposes method
 ![](https://github.com/LeiJiangJNU/R3FA/blob/master/figures/framework01.png)
 
-### Fusion strategy - addition
-<img src="https://github.com/hli1221/imagefusion_densefuse/blob/master/figures/fuse_addition.png" width="600">
+### MobDenseNet Structure
+<img src="https://github.com/LeiJiangJNU/R3FA/blob/master/figures/MobDenseNet.png" width="600">
 
-### Fusion strategy - l1-norm
-<img src="https://github.com/hli1221/imagefusion_densefuse/blob/master/figures/fuse_l1norm.png" width="600">
+### Layer3 Structure-DenseBlock
+<img src="https://github.com/LeiJiangJNU/R3FA/blob/master/figures/layer3.png" width="600">
 
 
 ## Training
