@@ -10,7 +10,7 @@ In this paper proposes a novel and efficient end-to-end 3D face alignment framew
 and Densely Connected Convolutional,named MobDenseNet. Simultaneously,different loss functions are used to constrain 3D parameters based on 3D Morphable Model (3DMM) and 3D vertices
 
 ### The framework of ours proposes method
-![](https://github.com/LeiJiangJNU/R3FA/tree/master/figures/framework01.pdf)
+![](https://github.com/LeiJiangJNU/R3FA/tree/master/figures/framework01.png)
 
 ### Fusion strategy - addition
 <img src="https://github.com/hli1221/imagefusion_densefuse/blob/master/figures/fuse_addition.png" width="600">
