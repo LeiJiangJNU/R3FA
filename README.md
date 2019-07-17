@@ -13,10 +13,10 @@ and Densely Connected Convolutional,named MobDenseNet. Simultaneously,different 
 ![](https://github.com/LeiJiangJNU/R3FA/blob/master/figures/framework01.png)
 
 ### MobDenseNet Structure
-<img src="https://github.com/LeiJiangJNU/R3FA/blob/master/figures/MobDenseNet.png" width="600">
+<img src="https://github.com/LeiJiangJNU/R3FA/blob/master/figures/MobDenseNet.jpg" width="600">
 
 ### Layer3 Structure-DenseBlock
-<img src="https://github.com/LeiJiangJNU/R3FA/blob/master/figures/layer3.png" width="600">
+<img src="https://github.com/LeiJiangJNU/R3FA/blob/master/figures/layer3.jpg" width="600">
 
 
 ## Training
