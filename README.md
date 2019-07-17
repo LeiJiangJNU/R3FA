@@ -13,50 +13,24 @@ and Densely Connected Convolutional,named MobDenseNet. Simultaneously,different 
 ![](https://github.com/LeiJiangJNU/R3FA/blob/master/figures/framework01.png)
 
 ### MobDenseNet Structure
-<img src="https://github.com/LeiJiangJNU/R3FA/blob/master/figures/MobDenseNet.png" width="600">
+![](https://github.com/LeiJiangJNU/R3FA/blob/master/figures/MobDenseNet.png)
 
 ### Layer3 Structure-DenseBlock
-<img src="https://github.com/LeiJiangJNU/R3FA/blob/master/figures/layer3.png" width="600">
-
-
-## Training
-
-![](https://github.com/hli1221/imagefusion_densefuse/blob/master/figures/train.png)
-
-We train our network using MS-COCO(T.-Y. Lin, M. Maire, S. Belongie, J. Hays, P. Perona, D. Ramanan, P. Dollar, and C. L. Zitnick. Microsoft coco: Common objects in context. In ECCV, 2014. 3-5.) as input images which contains 80000 images and all resize to 256×256 and RGB images are transformed to gray ones. Learning rate is 1×10^(-4). The batch size and epochs are 2 and 4, respectively. Our method is implemented with GTX 1080Ti and 64GB RAM.
-
+![](https://github.com/LeiJiangJNU/R3FA/blob/master/figures/layer3.png)
 
 ## Experimental results
 
-### Infrared and visible images('street')
-![](https://github.com/hli1221/imagefusion_densefuse/blob/master/figures/fused_street.png)
+### Comparison on other method
+![](https://github.com/LeiJiangJNU/R3FA/blob/master/figures/nme01.png)
 
-### Infrared and visible images(RGB)
-Database:  
-Hwang S, Park J, Kim N, et al. Multispectral pedestrian detection: Benchmark dataset and baseline[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2015: 1037-1045.  
+### Comparison on different network structures
+![](https://github.com/LeiJiangJNU/R3FA/blob/master/figures/nme02.png)
 
-![](https://github.com/hli1221/imagefusion_densefuse/blob/master/figures/ivrgb_results.png)
+### 3D Face Alignment Results
+![](https://github.com/hli1221/imagefusion_densefuse/blob/master/figures/results.png)
 
-### Multi-focus images(RGB)
-![](https://github.com/hli1221/imagefusion_densefuse/blob/master/figures/fused_color.png)
-
-If you have any question about this code, feel free to reach me(hui_li_jnu@163.com, lihui@stu.jiangnan.edu.cn)
+If you have any question about this code, feel free to reach me(ljiang_jnu@outlook.com)
 
 
 # Citation
 
-For paper:
-
- *H. Li, X. J. Wu, “DenseFuse: A Fusion Approach to Infrared and Visible Images,” IEEE Trans. Image Process., vol. 28, no. 5, pp. 2614–2623, May. 2019.*
-
-For code:
-```
-@misc{li2018IVimagefusion_densefuse,
-    author = {Hui Li},
-    title = {CODE: DenseFuse_A Fusion Approach to Infrared and Visible Images},
-    year = {2018},
-    publisher = {GitHub},
-    journal = {GitHub repository},
-    howpublished = {\url{https://github.com/hli1221/imagefusion_densefuse}}
-  }
-```
